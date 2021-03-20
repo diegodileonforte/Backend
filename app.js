@@ -37,8 +37,8 @@ const operacion = (n1, n2, operador) => {
 };
 const operaciones = () => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        console.log(yield operacion(15, 15, "suma"));
-        console.log(yield operacion(30, 10, "resta"));
+        console.log(yield operacion(5, 3, "resta"));
+        console.log(yield operacion(8, 5, "suma"));
         console.log(yield operacion(5, 4, "multiplicacion"));
     }
     catch (error) {

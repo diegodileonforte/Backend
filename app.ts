@@ -9,8 +9,8 @@ const operacion = (n1: number, n2: number, operador: string) => {
 
 const operaciones = async () => {
   try {
-    console.log(await operacion(15, 15, "suma"));
-    console.log(await operacion(30, 10, "resta"));
+    console.log(await operacion(5, 3, "resta"));
+    console.log(await operacion(8, 5, "suma"));
     console.log(await operacion(5, 4, "multiplicacion"));
   } catch (error) {
     console.log('error');
